@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import QrReader from "react-qr-reader";
-import "./style.css";
+import {QrReader} from "react-qr-reader";
 
 export default function App() {
   const [result, setResult] = useState("No result");
