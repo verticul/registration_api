@@ -20,7 +20,9 @@ export default function App() {
         onError={handleError}
         onScan={handleScan}
         style={{ width: "100%" }}
-        facingMode="environment"
+        constraints={{
+          facingMode: 'environment'
+      }}
       />
       <p>{result}</p>
     </div>
